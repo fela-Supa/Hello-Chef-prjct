@@ -1,0 +1,605 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* border: 1px solid blue; */
+}
+
+.sectionOne {
+  height: 75vh;
+  background-color: rgb(163, 146, 146);
+}
+
+.sectionOne .navbar {
+  height: 13%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.sectionOne .logo img {
+  width: 200px;
+  height: auto;
+}
+
+/* .logo {
+    border: solid 1px black;
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+    height: 50px;
+    width: 100px;
+    background-color: rgba(182, 8, 8, 0.665);
+    margin-right: 50%; 
+*/
+
+/* .navigation {
+    border: solid 1px black
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    margin-left: 50px;
+} */
+
+.sectionOne li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #484848;
+}
+
+.sectionOne .signIn {
+  padding: 10px 20px;
+  background-color: red;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.sectionOne .banner {
+  height: 87%;
+  /* background-color: blueviolet; */
+  background-image: url(/Images/banner.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionOne .bannerText {
+  height: 45%;
+  width: 30%;
+  margin-top: 150px;
+  text-align: center;
+  /* border: solid 1px black; */
+}
+
+.sectionOne .bannerText h1 {
+  font-size: 42px;
+  color: #484848;
+  line-height: 42px;
+  margin-bottom: 15px;
+}
+
+.sectionOne .bannerText p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #757575;
+  margin-bottom: 24px;
+}
+
+.bannerText button {
+  font-size: 18px;
+  text-transform: capitalize;
+  border: none;
+  background-color: #e43e13;
+  color: #fff;
+  padding: 18px 56px;
+  border-radius: 40px;
+  font-weight: 500;
+}
+
+/* ------------------------------------------------------- */
+
+.sectionTwo {
+  height: 70vh;
+  background-color: #fff;
+  /* display: flex;
+  /* flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  /* border: solid 1px black; */
+}
+
+.sectionTwo .content {
+  height: 200px;
+  /* width: 100%; */
+  display: flex;
+  margin-top: 130px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sectionTwo .WhyDescription, h2 .p {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sectionTwo .content .principle p {
+  margin-bottom: 10px;
+}
+
+.sectionTwo .content .principle .image {
+  height: 55%;
+  background-color: white;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.sectionTwo .content .principle .fa-check {
+  color: #36bd2c;
+  margin-right: 5px;
+}
+
+.sectionTwo .content .convenience .image {
+  height: 200px;
+  background-image: url(/Images/convenience.webp);
+}
+
+.sectionTwo .content .variety .image {
+  height: 200px;
+  background-image: url(/Images/variety-hi.webp);
+}
+
+.sectionTwo .content .deliciousness .image {
+  height: 200px;
+  background-image: url(/Images/Deliciousness.webp);
+}
+
+/* ------------------------------------------------------- */
+
+/* .sectionThree */
+.sectionThree {
+  height: 75vh;
+  display: flex;
+  /* margin-top: 100px; */
+}
+
+.sectionThree .image,
+.sectionThree .imageDescription {
+  height: 100%;
+  width: 50%;
+}
+
+.sectionThree .image {
+  background-image: url(/Images/Family_cooking.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.sectionThree .imageDescription {
+  background-color: #fbe6e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.sectionThree .content {
+  height: 70%; /* Adjusted to 100% for full width */
+  width: 90%; /* Added max-width for better responsiveness */
+  /* border: solid 1px black; */
+}
+
+.sectionThree h2 {
+  font-size: 36px;
+  color: #e42e13;
+}
+
+.sectionThree p:nth-of-type(1) {
+  color: #1a1a1a;
+  margin-bottom: 25px;
+  font-weight: 400;
+  display: flex;
+}
+
+.sectionThree p {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.sectionThree p span {
+  color: #ff946e;
+  font-size: 28px;
+  margin-right: 5px;
+}
+
+.sectionThree button {
+    background-color: #e42e13;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 25px;
+    padding: 15px 43px;
+}
+
+/* ------------------------------------------------------- */
+
+.sectionFour {
+  height: 550px;
+  text-align: center;
+}
+
+.sectionFour h2 {
+ font-size: 28px;
+ font-weight: 600; 
+ color: #484848;
+ padding: 50px 0 10px 0;
+}
+
+.sectionFour p {
+  width: 50%;
+  margin-left: 25%;
+  font-size: 18px;
+  font-weight: 300;
+  color: #757575;
+}
+
+.sectionFour .menu {
+  height: 60%;
+  display: flex;
+  margin: -50px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+  gap: 20px;
+}
+
+.sectionFour .menu-item {
+  /* border: solid 1px black; */
+  height: 60%;
+  width: 20%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.sectionFour span {
+  /* border: solid 1px sienna; */
+  padding: 6px 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.sectionFour .menu-item:nth-child(1){
+  background-image: url(/Images/vegan.webp);
+}
+
+.sectionFour .menu-item:nth-child(2){
+  background-image: url(/Images/weekly_classic.webp);
+}
+
+.sectionFour .menu-item:nth-child(3) {
+  background-image: url(/Images/Vegetarian.webp);
+}
+
+.sectionFour .menu-item:nth-child(1) span{
+  background-color: #d8f4a4;
+  color: #78a42b;
+  border: none;
+}
+
+.sectionFour .menu-item:nth-child(2) span {
+  background-color: #d9e3fe;
+  color: #647ad0;
+}
+
+.sectionFour .menu-item:nth-child(3) span {
+  background-color: #c8f5da;
+  color: #4ab074;
+}
+
+.sectionFour button {
+  margin: auto;
+  font-size: 16px;
+  background-color: #e42e13;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 18px 46px;
+  border-radius: 30px;
+  border: none;
+}
+/* ------------------------------------------------------- */
+
+.sectionFive {
+  height: 77vh;
+  text-align: center;
+  background-color: #f3f4f6;
+}
+
+.sectionFive h2 {
+  font-size: 34px;
+  font-weight: 400;
+  text-decoration: underline;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #484848;
+}
+
+.sectionFive h2 > img {
+height: 48px;
+margin: 0 5px -10px 0;
+}
+
+.sectionFive .users {
+height: 45%;
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(4, 18%);
+padding-bottom: 50px;
+gap: 20px;
+}
+
+.sectionFive .user {
+background-color: center;
+background-size: cover;
+}
+
+.sectionFive .one {
+  background-image: url(/Images/one.webp);
+}
+
+.sectionFive .two {
+  background-image: url(/Images/two.webp);
+}
+
+.sectionFive .three {
+  background-image: url(/Images/three.webp);
+}
+
+.sectionFive .four {
+  background-image: url(/Images/four.webp);
+}
+
+.sectionFive p {
+  font-size: 26px;
+  font-weight: 300;
+  
+  color: #484848;
+}
+
+.sectionFive p > span {
+  color: #e42a13;
+}
+
+.sectionFive p:nth-of-type(3) {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.sectionFive p > img{
+  height: 24px;
+  margin-bottom: -6px;
+}
+
+.sectionFive .fa-solid{
+  color: #f6ad00;
+}
+
+/* ------------------------------------------------------- */
+
+.sectionSix {
+  height: 77vh;
+  background-image: url(/Images/subscribe.webp) ;
+  background-position: bottom;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectionSix .content {
+  height: 40%;
+  width: 70%;
+  /* border: 1px solid black; */
+}
+
+.sectionSix .content{
+  /* height: 60%; */
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.sectionSix .content > h2 {
+  /* height: 60%; */
+  /* border-radius: 15px 0px; */
+  text-align: center;
+  padding: 30px 0;
+}
+
+.sectionSix .content  p {
+  font-size: 18px;
+  /* margin-left: -370px; */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sectionSix .form > input {
+  height: 50px;
+  width: 350px;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+
+}
+
+.sectionSix .form label {
+  margin-right: 340px;
+}
+
+.sectionSix .form > button {
+  padding: 11.8px 10px 14px 10px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  font-size: 16px;
+}
+
+/* .sectionSix .form :focus{
+  outline: none;
+} */
+
+.sectionSix .content > p {
+  text-align: center;
+  font-size: 14px;
+  width: 70%;
+  /* margin: auto; */
+}
+
+.sectionSix .subscribe{
+  padding-top: 30px;
+  max-width: 50%;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* ------------------------------------------------------- */
+
+.sectionSeven {
+  padding-bottom: 50px;
+  background-color: #fafafa;
+}
+
+.sectionSeven h2{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sectionSeven p {
+   text-align: left;
+  }
+
+.sectionSeven .blog p, .contacts p{
+  text-align: right;
+}
+
+.sectionSeven .navigation {
+  height: 30%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(7, 12%);
+  gap: 10px;
+  background-color: #fafafa;
+}
+
+.sectionSeven .navigation .blog,
+.sectionSeven .navigation .contacts {
+  grid-column: span 2;
+  width: 80%;
+}
+
+/* .sectionSeven .navigation > div {
+  border: solid 1px black;
+} */
+
+.sectionSeven .contact {
+  height: 30%;
+  background-color: #fafafa;
+}
+
+.sectionSeven .contact {
+  height: 30%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 15%);
+  gap: 10px;
+}
+
+.sectionSeven .contact .subscribe {
+  grid-column: span 2;
+  width: 80%;
+} 
+
+/* .sectionSeven .contact > div {
+ border: solid 1px palevioletred;
+} */
+
+.sectionSeven .form > input {
+  height: 50px;
+  width: 250px;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+  border: 1px solid;
+}
+
+.sectionSeven .form > input:focus{
+  outline: none;
+}
+
+.sectionSeven .form > button {
+  padding: 13.5px 10px 16px 10px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  font-size: 16px;
+  border: none;
+  background-color: #e42a12;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.sectionSeven .blog {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionSeven .reviews div {
+  display: flex; 
+  align-items: center; 
+  justify-content: right;
+}
+
+.sectionSeven .socials div {
+  display: flex; 
+  align-items: center; 
+  justify-content: right;
+}
+
+
+.sectionSeven p > img{
+  height: 40px;
+  margin-bottom: -6px;
+}
+
+.sectionSeven .fa-solid{
+  color: #f6ad00;
+  font-size: 20px;
+}
+
+.sectionSeven .reviews p, .socials p{
+  text-align: right;
+  padding-right: 10px;
+}
+
+.sectionSeven .fa-brands{
+  padding: 10px 10px;
+  font-size: 30px;
+}
